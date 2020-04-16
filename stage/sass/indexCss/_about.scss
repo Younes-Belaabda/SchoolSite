@@ -1,0 +1,29 @@
+.about {
+    // background-color: green;
+    height: $max_height;
+    display: none;
+}
+#about_us {
+    justify-content: center;
+    align-items: center;
+}
+#about_us form {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    padding: 20px;
+    height: 60vh;
+    background-color: rgba(19, 17, 17, 0.931);
+    align-items: center;
+    
+}
+form h1,label,span {
+    color: white;
+}
+#about_us > form > div {
+    padding: 10px 0;
+} 
+#about_us > form  input {
+    padding: 5px 20px;
+} 

@@ -1,0 +1,25 @@
+@media (max-width : 1200px){
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        h1{
+            text-align: center;
+        }
+        nav{
+            align-self: flex-start;
+            width: 100%;
+        ul {
+            flex-direction: column;
+            li {
+                background-color: black;
+                
+                a {
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+        }
+    }
+    }
+}

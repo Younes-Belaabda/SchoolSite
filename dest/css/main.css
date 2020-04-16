@@ -1,0 +1,130 @@
+@font-face {
+  src: url("../fonts/DmSerif/DMSerifText-Regular.ttf");
+  font-family: 'DmSerif';
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  src: url("../fonts/Roboto/Roboto-Italic.ttf");
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: normal; }
+
+@font-face {
+  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold; }
+
+/*General Rules*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black; }
+  * body {
+    width: 80%;
+    margin: auto; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DmSerif'; }
+
+p, span, a, label, input {
+  font-family: 'Roboto'; }
+
+header {
+  height: calc(100vh - 50px);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center; }
+  header ul {
+    list-style: none;
+    display: flex; }
+    header ul li {
+      padding: 5px 10px; }
+      header ul li a {
+        text-decoration: none;
+        text-transform: uppercase; }
+
+.scroll {
+  height: 50px; }
+  .scroll span {
+    color: honeydew;
+    background-color: #0d0e0d;
+    padding: 5px 20px; }
+  .scroll .fleche {
+    float: right; }
+
+.about {
+  height: 100vh;
+  display: none; }
+
+#about_us {
+  justify-content: center;
+  align-items: center; }
+
+#about_us form {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  padding: 20px;
+  height: 60vh;
+  background-color: rgba(19, 17, 17, 0.931);
+  align-items: center;
+  justify-content: center; }
+
+form h1, label, span {
+  color: white; }
+
+#about_us > form > div {
+  padding: 10px 0; }
+
+#about_us > form input {
+  padding: 5px 20px; }
+
+.events {
+  background-color: #801e00;
+  height: 100vh;
+  display: none; }
+
+.actualites {
+  background-color: #002280;
+  height: 100vh;
+  display: none; }
+
+.contact {
+  height: 100vh;
+  display: none;
+  padding: 5px 0; }
+  .contact .sp-nav {
+    padding: 20px;
+    background-color: black;
+    color: cornsilk; }
+  .contact article {
+    padding: 5px 0; }
+
+@media (max-width: 1200px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    header h1 {
+      text-align: center; }
+    header nav {
+      align-self: flex-start;
+      width: 100%; }
+      header nav ul {
+        flex-direction: column; }
+        header nav ul li {
+          background-color: black; }
+          header nav ul li a {
+            font-size: 20px;
+            color: white; } }

@@ -1,0 +1,14 @@
+section#about_us.about
+    form(action="/", method="post")
+        h1 Notre Espace !
+        h1 
+        span Formateur
+        input(type="radio" name="type" value="formateur")
+        span  Stagiaire
+        input(type="radio" name="type" value="stagiaire")
+        label(for="") Identifiant
+        input(type="text")
+        label(for="") Mot de pass
+        input(type="text")
+        input(type="submit" value="Entrer")
+        input(type="reset" value="Vider")

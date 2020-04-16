@@ -1,0 +1,23 @@
+header {
+    height: $header_height;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            padding: 5px 10px;
+            a {
+                text-decoration: none; 
+                text-transform: uppercase;
+                
+
+            }
+            
+            
+        }
+    }
+    
+}

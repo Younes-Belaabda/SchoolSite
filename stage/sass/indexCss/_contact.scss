@@ -1,0 +1,14 @@
+.contact {
+    // background-color: rgb(109, 128, 0);
+    height: $max_height;
+    display: none;
+    padding: 5px 0;
+    .sp-nav{
+        padding: 20px;
+        background-color: black;
+        color: cornsilk;
+    }
+    article {
+        padding: 5px 0;
+    }
+}

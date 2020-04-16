@@ -1,0 +1,11 @@
+.scroll {
+    height: $scroll_height;
+    span {
+        color: honeydew;
+        background-color: rgb(13, 14, 13);
+        padding: 5px 20px;
+    }
+    .fleche {
+        float: right;
+    }
+}
